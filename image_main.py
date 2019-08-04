@@ -16,8 +16,8 @@ def start_wifi():
     nets = wlan.scan()
     for net in nets:
         ssid = net[0]
-        if ssid == b'JudiandLance':
-            wlan.connect(ssid, 'balloon1')
+        if ssid == b'Jxxxxxxxxxxe':
+            wlan.connect(ssid, 'xxxxxxxx')
             while not wlan.isconnected():
                 idle() # save power while waiting
             print('WLAN connection succeeded!')

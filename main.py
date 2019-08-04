@@ -6,8 +6,8 @@ def main():
     nets = wlan.scan()
     for net in nets:
         ssid = net[0]
-        if ssid == b'JudiandLance':
-            wlan.connect(ssid, 'balloon1')
+        if ssid == b'Jxxxxxxxxxe':
+            wlan.connect(ssid, 'xxxxxxxx')
             while not wlan.isconnected():
                 idle() # save power while waiting
             print('WLAN connection succeeded!')
