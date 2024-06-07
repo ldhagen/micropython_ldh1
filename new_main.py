@@ -19,8 +19,8 @@ def start_wifi():
             while not wlan.isconnected():
                 idle() # save power while waiting
             print('WLAN connection succeeded!')
-            ftp.start(user='ldhagen', password='ldhagen')
-            telnet.start(user='ldhagen', password='ldhagen')
+            ftp.start(user='l******', password='*****')
+            telnet.start(user='l******', password='*****')
             break
 
 def watch():
